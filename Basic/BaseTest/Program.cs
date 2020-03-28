@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BaseTest.Delegate;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,12 +12,16 @@ namespace BaseTest
         static void Main(string[] args)
         {
             TestMotorcycle moto = new TestMotorcycle();
-
             moto.StartEngine();
             //moto.AddGas(15);
             var drive = moto.Drive(5, 20);
             double speed = moto.GetTopSpeed();
             Console.WriteLine("My top speed is {0}", speed);
+
+            Logger.WriteMessage += LoggingMethods.LogToConsole;
+            Logger.LogMessage(Logger.Severity.Critical, "Main", "test");
+
+
             Console.ReadKey();
         }
     }
