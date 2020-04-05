@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral pattern", "Behav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{672DD1C5-BC5F-4287-A23F-371EAC6355D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern", "Creational Pattern", "{2407CE7C-FADD-48D5-BD43-F19412DD0A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{3126997A-ACE4-4516-9DF7-E32512EB7048}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{672DD1C5-BC5F-4287-A23F-371EAC6355D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672DD1C5-BC5F-4287-A23F-371EAC6355D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672DD1C5-BC5F-4287-A23F-371EAC6355D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3126997A-ACE4-4516-9DF7-E32512EB7048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3126997A-ACE4-4516-9DF7-E32512EB7048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3126997A-ACE4-4516-9DF7-E32512EB7048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3126997A-ACE4-4516-9DF7-E32512EB7048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{672DD1C5-BC5F-4287-A23F-371EAC6355D3} = {BF54305B-D2DC-44AB-989E-B56B983D5164}
+		{3126997A-ACE4-4516-9DF7-E32512EB7048} = {2407CE7C-FADD-48D5-BD43-F19412DD0A84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {069A78F2-31D0-4A81-8C8A-B3622397D113}
